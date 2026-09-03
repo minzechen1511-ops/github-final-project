@@ -1,0 +1,11 @@
+# Task 9 evidence template
+# Run this command in your forked repository and replace this template with your real terminal output.
+
+$ git branch -a -v
+* main                         def5678 Update typo after merging bug-fix-typo
+  bug-fix-typo                 abc1234 Fix typo in project file
+  bug-fix-revert               fed9876 Revert typo fix for pull request
+  remotes/origin/main          def5678 Update typo after merging bug-fix-typo
+  remotes/origin/bug-fix-typo  abc1234 Fix typo in project file
+  remotes/origin/bug-fix-revert fed9876 Revert typo fix for pull request
+

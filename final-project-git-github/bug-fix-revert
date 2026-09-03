@@ -1,0 +1,25 @@
+# Task 8 evidence template
+# Replace the URL with your actual pull request API URL after creating the pull request.
+
+Command:
+curl https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pulls/YOUR-PULL-REQUEST-NUMBER
+
+Expected terminal output should include fields like:
+{
+  "url": "https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pulls/YOUR-PULL-REQUEST-NUMBER",
+  "state": "open",
+  "head": {
+    "label": "YOUR-GITHUB-USERNAME:bug-fix-revert",
+    "ref": "bug-fix-revert",
+    "repo": {
+      "full_name": "YOUR-GITHUB-USERNAME/mcino-Introduction-to-Git-and-GitHub",
+      "fork": true
+    }
+  },
+  "base": {
+    "label": "ibm-developer-skills-network:main",
+    "ref": "main"
+  },
+  "mergeable_state": "clean"
+}
+

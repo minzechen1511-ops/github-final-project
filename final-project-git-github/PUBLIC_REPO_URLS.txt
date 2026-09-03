@@ -1,0 +1,17 @@
+Replace YOUR-GITHUB-USERNAME with your GitHub username after pushing these files to a public repository.
+
+Task 1 README.md URL:
+https://github.com/YOUR-GITHUB-USERNAME/mcino-Introduction-to-Git-and-GitHub/blob/main/README.md
+
+Task 2 LICENSE URL:
+https://github.com/YOUR-GITHUB-USERNAME/mcino-Introduction-to-Git-and-GitHub/blob/main/LICENSE
+
+Task 3 CODE_OF_CONDUCT.md URL:
+https://github.com/YOUR-GITHUB-USERNAME/mcino-Introduction-to-Git-and-GitHub/blob/main/CODE_OF_CONDUCT.md
+
+Task 4 CONTRIBUTING.md URL:
+https://github.com/YOUR-GITHUB-USERNAME/mcino-Introduction-to-Git-and-GitHub/blob/main/CONTRIBUTING.md
+
+Task 5 simple-interest.sh URL:
+https://github.com/YOUR-GITHUB-USERNAME/mcino-Introduction-to-Git-and-GitHub/blob/main/simple-interest.sh
+

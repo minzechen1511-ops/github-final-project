@@ -1,0 +1,17 @@
+# Task 6 evidence template
+# Replace YOUR-GITHUB-USERNAME with your actual GitHub username after you fork the repository.
+
+Command:
+curl -I https://github.com/YOUR-GITHUB-USERNAME/mcino-Introduction-to-Git-and-GitHub
+
+Expected terminal output after successful fork:
+HTTP/2 200
+server: GitHub.com
+content-type: text/html; charset=utf-8
+
+Fork source repository:
+https://github.com/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub
+
+Forked repository:
+https://github.com/YOUR-GITHUB-USERNAME/mcino-Introduction-to-Git-and-GitHub
+
