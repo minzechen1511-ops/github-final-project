@@ -1,25 +1,37 @@
-# Task 8 evidence template
-# Replace the URL with your actual pull request API URL after creating the pull request.
+Task 8 - Pull Request Verification Evidence
 
-Command:
-curl https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pulls/YOUR-PULL-REQUEST-NUMBER
+Learner GitHub username:
+minzechen1511-ops
 
-Expected terminal output should include fields like:
-{
-  "url": "https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pulls/YOUR-PULL-REQUEST-NUMBER",
-  "state": "open",
-  "head": {
-    "label": "YOUR-GITHUB-USERNAME:bug-fix-revert",
-    "ref": "bug-fix-revert",
-    "repo": {
-      "full_name": "YOUR-GITHUB-USERNAME/mcino-Introduction-to-Git-and-GitHub",
-      "fork": true
-    }
-  },
-  "base": {
-    "label": "ibm-developer-skills-network:main",
-    "ref": "main"
-  },
-  "mergeable_state": "clean"
+Forked repository expected by the assignment:
+https://github.com/minzechen1511-ops/mcino-Introduction-to-Git-and-GitHub
+
+Source repository:
+https://github.com/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub
+
+Executed curl command to search for pull requests from the learner's bug-fix-revert branch:
+curl.exe -L "https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pulls?state=all&head=minzechen1511-ops:bug-fix-revert"
+
+Copied terminal output:
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100     5  100     5    0     0     11      0 --:--:-- --:--:-- --:--:--    11
+[
+
+]
+
+Important:
+This is the actual terminal response currently returned by GitHub. It shows that no pull request exists yet from:
+minzechen1511-ops:bug-fix-revert
+
+To receive full credit for Task 8, create the forked repository and open a pull request from the `bug-fix-revert` branch. GitHub currently returned an empty pull request list, so a real pull request number is not available yet.
+
+After the pull request exists, rerun the command with the real pull request number from the GitHub pull request URL.
+
+The passing output should show the forked repository named:
+"full_name": "minzechen1511-ops/mcino-Introduction-to-Git-and-GitHub"
+
+It should also show:
+"head": {
+  "label": "minzechen1511-ops:bug-fix-revert"
 }
-

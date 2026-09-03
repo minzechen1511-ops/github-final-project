@@ -1,17 +1,40 @@
-# Task 6 evidence template
-# Replace YOUR-GITHUB-USERNAME with your actual GitHub username after you fork the repository.
+Task 6 - Forked Repository Evidence
 
-Command:
-curl -I https://github.com/YOUR-GITHUB-USERNAME/mcino-Introduction-to-Git-and-GitHub
+Learner GitHub username:
+minzechen1511-ops
 
-Expected terminal output after successful fork:
-HTTP/2 200
-server: GitHub.com
-content-type: text/html; charset=utf-8
+Required fork URL:
+https://github.com/minzechen1511-ops/mcino-Introduction-to-Git-and-GitHub
 
-Fork source repository:
+Source repository:
 https://github.com/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub
 
-Forked repository:
-https://github.com/YOUR-GITHUB-USERNAME/mcino-Introduction-to-Git-and-GitHub
+Executed curl command:
+curl.exe -L https://api.github.com/repos/minzechen1511-ops/mcino-Introduction-to-Git-and-GitHub
+
+Copied terminal output:
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   132  100   132    0     0    327      0 --:--:-- --:--:-- --:--:--   327
+{
+  "message": "Not Found",
+  "documentation_url": "https://docs.github.com/rest/repos/repos#get-a-repository",
+  "status": "404"
+}
+
+Important:
+This is the actual terminal response currently returned by GitHub. It shows that the required fork has not been created publicly yet.
+
+To receive full credit for Task 6, first fork this repository:
+https://github.com/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub
+
+Then rerun:
+curl.exe -L https://api.github.com/repos/minzechen1511-ops/mcino-Introduction-to-Git-and-GitHub
+
+The passing output should show:
+"full_name": "minzechen1511-ops/mcino-Introduction-to-Git-and-GitHub"
+"fork": true
+"parent": {
+  "full_name": "ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub"
+}
 
